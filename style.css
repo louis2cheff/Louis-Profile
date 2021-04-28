@@ -1,0 +1,100 @@
+ @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;500;600;700&family=Orelega+One&family=Original+Surfer&display=swap');
+
+
+h1 {
+  color:green;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: 'Orelega One', cursive;
+}
+
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+body {
+  background-color: lightyellow;
+  font-family: Antonio, sans-serif;
+  color: darkgray;
+  font-size: 16px;
+  line-height: 16px
+}
+
+.btn-green {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: green;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.btn-green:hover {
+  color: yellow;
+}
+
+
+img {
+  height: 104px;
+
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+div {
+  background-color: white;
+  padding: 32px;
+  margin: 24px auto;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+i {
+  font-size: 48px;
+}
+
+#paragraph-withmargin {
+  margin-bottom: 32px;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  margin: 8px;
+}
+
+@media (max-width: 1080px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
